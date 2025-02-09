@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="FA2.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<h1>calcU</h1>
+<p>
+    <i>This page is a calculator that lets you check the sum, difference, product, quotient,
+        and the remainder of 2 numbers. </i> <br>
+</p>
+<p style="font-size:smaller">(not compatible with chain calculations)
+
+<p>
+    How to use: <br>
+    1. Enter 2 numbers <br>
+    2. Click on any operation <br>
+    3. And the answer is..
+</p>
+
+<input type="text" id="num1" value="Num 1">
+<input type="text" id="num2" value="Num 2">
+<br> <br>
+
+<button onclick="(add(parseInt(num1.value), parseInt(num2.value)))">+</button>
+<button onclick="(sub(parseInt(num1.value), parseInt(num2.value)))">-</button>
+<button onclick="(mul(parseInt(num1.value), parseInt(num2.value)))">*</button>
+<button onclick="(div(parseInt(num1.value), parseInt(num2.value)))">/</button>
+<button onclick="(rem(parseInt(num1.value), parseInt(num2.value)))">%</button>
+
+
+<p id="ans">Results will be displayed here.</p>
+
+
+</body>
+</html>

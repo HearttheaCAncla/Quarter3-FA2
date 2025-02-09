@@ -1,0 +1,50 @@
+
+html {
+    text-align:center;
+    background-color:#F5F5F5;
+}
+
+body {
+    zoom: 125%;
+}
+
+button {
+  font-size: 1rem;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  transition: all 235ms ease-in-out;
+  line-height: .5rem;
+  padding: 15px;
+  font-size:larger;  
+}
+
+button:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+button:focus {
+  color:#ccc;
+  background-color: #41403e;  
+}
+
+input {
+    text-align:center;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    padding: 10px 9px;
+    margin: 9px; 
+    width: 7%;
+    border: 3px solid #ccc;
+    transition: 0.5s;
+    outline:none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
